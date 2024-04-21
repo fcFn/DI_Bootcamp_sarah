@@ -45,20 +45,15 @@ body {
 /*Set up for the header with a picture of me as profile and a short description*/
 
 header {
-  margin-top: 17%;
+  margin-bottom: 50px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 480px) {
   header {
-    height: 150px;
+    margin-bottom: 150px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  header {
-    height: 100px;
-  }
-}
 #first-p {
   margin-bottom: 4%;
 }
@@ -134,7 +129,6 @@ main > h3 {
 /*Now doing the article no1 part of the cv, where I show my experiences*/
 article {
   width: 100%;
-  margin-top: 100px;
 }
 
 article > h3 {
