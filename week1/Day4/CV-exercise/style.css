@@ -102,16 +102,18 @@ header > h3 {
   }
 }
 
+.social-media-buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
 #button1 {
-  margin-left: 6%;
   background-color: white;
-  display: inline-block;
 }
 
 #button2 {
-  margin-left: 40px;
   background-color: white;
-  display: inline-block;
 }
 
 .button-header {
