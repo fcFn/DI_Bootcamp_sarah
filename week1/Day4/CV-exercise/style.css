@@ -7,11 +7,8 @@
 /*this little piece of code is what fixed my problem of having a white space on the right side of the page*/
 html,
 body {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /*nav bar set up ( started adding a border and deleted it after everything was set and in place, just so I could vizualize the placemnet better)*/
@@ -49,7 +46,6 @@ body {
 
 header {
   margin-top: 17%;
-  position: relative;
 }
 
 @media screen and (max-width: 800px) {
@@ -103,13 +99,6 @@ header > h3 {
   .circle {
     height: 200px;
     width: 200px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .circle {
-    width: 200px;
-    height: 200px;
   }
 }
 
