@@ -52,17 +52,6 @@ header {
   position: relative;
 }
 
-@media screen and (max-width: 800px) {
-  header {
-    height: 150px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  header {
-    height: 100px;
-  }
-}
 #first-p {
   margin-bottom: 4%;
 }
@@ -168,9 +157,7 @@ article > h3 {
 }
 
 @media screen and (min-width: 250px) {
-  article {
-    margin-top: 700px; /* Adjust margin-top for smaller screens */
-  }
+
 
   .up-left,
   .up-right {
@@ -178,9 +165,7 @@ article > h3 {
   }
 }
 @media screen and (min-width: 600px) {
-  article {
-    margin-top: 400px; /* Adjust margin-top for smaller screens */
-  }
+
 
   .up-left,
   .up-right {
