@@ -10,3 +10,7 @@
   <summary>Hint #3</summary>
   ...they are set to a specific height.
 </details>
+<details>
+  <summary>Solution</summary>
+  Unset the height of the header element.
+</details>
