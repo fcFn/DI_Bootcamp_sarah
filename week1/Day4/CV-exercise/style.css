@@ -145,40 +145,25 @@ article > h3 {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .up-left,
 .up-right {
-  width: 50%;
   padding: 20px;
   font-size: 130%;
   color: rgb(87, 86, 86);
-}
-
-@media screen and (min-width: 250px) {
-  article {
-    margin-top: 700px; /* Adjust margin-top for smaller screens */
-  }
-
-  .up-left,
-  .up-right {
-    width: 50%; /* On screens wider than 250px, make each item take 50% width */
-  }
-}
-@media screen and (min-width: 600px) {
-  article {
-    margin-top: 400px; /* Adjust margin-top for smaller screens */
-  }
-
-  .up-left,
-  .up-right {
-    width: 50%; /* On screens wider than 600px, make each item take 50% width */
-  }
+  flex: 1 0 100px;
 }
 
 @media screen and (min-width: 800px) {
   article {
     margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .row {
+    flex-direction: row;
   }
 }
