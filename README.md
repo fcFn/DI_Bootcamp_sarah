@@ -11,6 +11,14 @@
   ...they are set to a specific height.
 </details>
 <details>
+  <summary>Hint #4</summary>
+  Content that doesn't fit into its parent's dimensions will spill out (overflow), possibly overlaying onto other elements, which is the case here, by default.
+</details>
+<details>
   <summary>Solution</summary>
   Unset the height of the header element.
+</details>
+<details>
+  <summary>Optional</summary>
+  You can now remove or adjust the top margin of the Experience section.
 </details>
